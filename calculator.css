@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin:0px;
+
+}
+.displayfield{
+    height: 5em;
+    width: 320px;
+    text-align: right;
+    font-size: large;
+    
+}
+.rounded-circle{
+    width: 130%;
+    height: 3em;
+    background-color: rgb(194, 171, 171);
+    border: none;
+   
+    
+}
+
+.buttons{
+    width: 320px;
+    padding: 5px;
+    padding-right: 20px;
+    
+    
+}
+.calculator{
+    width: 100%;
+    background-color:rgb(226, 227, 228);
+}
+.field{
+    
+    z-index: 1000;
+    position: relative;
+}
+.icon{
+    
+    z-index: 100;
+    position: relative;
+}
+
+
+
+.rounded-circle:hover{
+    background-color: brown;
+    color: white;
+}
+
+
